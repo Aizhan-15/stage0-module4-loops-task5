@@ -4,7 +4,6 @@ public class Cross {
     public void printCross(int sideLength) {
         for (int i = 0; i < sideLength; i++) {
             for (int j = 0; j < sideLength; j++) {
-                // print only stars in middle row
                 if (i == sideLength / 2) {
                     System.out.print("8");
                 } else {
