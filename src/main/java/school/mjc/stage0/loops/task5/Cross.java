@@ -6,10 +6,10 @@ public class Cross {
             for (int j = 0; j < sideLength; j++) {
                 // print only stars in middle row
                 if (i == sideLength / 2) {
-                    System.out.print("*");
+                    System.out.print("8");
                 } else {
                     if (j == sideLength / 2) {
-                        System.out.print("*");
+                        System.out.print("8");
                     } else {
                         System.out.print(" ");
                     }
